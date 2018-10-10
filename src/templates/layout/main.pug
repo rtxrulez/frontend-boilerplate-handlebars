@@ -1,0 +1,30 @@
+include ../mixins/icon
+
+// variables
+- var imgpath = 'images/'
+
+
+block config
+    - var pageTitle = 'Title'
+    - var pageDescription = 'Главная страница'
+    - var bodyClass = ''
+
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        include ../partials/head
+
+        block styles
+            include ../partials/styles
+    body(class=bodyClass)
+        .container-layout
+            block header
+                include ../partials/header
+            main.wrapper
+                block main
+
+            block content-footer
+                include ../partials/footer
+
+        block scripts
+            include ../partials/scripts
