@@ -20,12 +20,7 @@
   ],
   "dependencies": {
     "babel-loader": "^7.1.4",
-    "babel-preset-es2015": "^6.24.1",
-    "global": "^4.3.2",
-    "gulp-util": "^3.0.8",
-    "node-notifier": "^5.2.1",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.12"
+    "babel-preset-es2015": "^6.24.1"
   },
   "devDependencies": {
     "autoprefixer": "^8.0.0",
@@ -35,18 +30,24 @@
     "css-mqpacker": "^6.0.2",
     "cssnano": "^3.10.0",
     "del": "^3.0.0",
+    "global": "^4.3.2",
     "gulp": "4",
     "gulp-cache": "^1.0.2",
     "gulp-cli": "^2.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^5.0.2",
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^4.1.0",
     "gulp-livereload": "^3.8.1",
     "gulp-plumber": "^1.2.0",
     "gulp-postcss": "^7.0.1",
-    "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-stylelint": "^6.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-wrap": "^0.14.0",
+    "node-notifier": "^5.2.1",
     "postcss": "^6.0.19",
     "postcss-browser-reporter": "^0.5.0",
     "postcss-pseudo-class-enter": "^3.0.1",
@@ -54,6 +55,8 @@
     "precss": "^3.1.1",
     "require-dir": "^0.3.2",
     "stylelint": "^9.1.1",
-    "stylelint-config-standard": "^18.1.0"
+    "stylelint-config-standard": "^18.1.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
   }
 }
